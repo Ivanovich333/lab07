@@ -2,24 +2,24 @@ Execute command: [
   `which`
   `cmake`
 ]
-[/home/theiiird/Projects/TIMP/Workbench/lab07]> "which" "cmake"
+[/home/ivanovich333/Projects/TIMP/Workbench/lab07]> "which" "cmake"
 /sbin/cmake
 Execute command: [
   `cmake`
   `--version`
 ]
-[/home/theiiird/Projects/TIMP/Workbench/lab07]> "cmake" "--version"
+[/home/ivanovich333/Projects/TIMP/Workbench/lab07]> "cmake" "--version"
 cmake version 3.29.3
 
 CMake suite maintained and supported by Kitware (kitware.com/cmake).
 Execute command: [
   `cmake`
   `-H.`
-  `-B/home/theiiird/Projects/TIMP/Workbench/lab07/_builds/clang-cxx14`
+  `-B/home/ivanovich333/Projects/TIMP/Workbench/lab07/_builds/clang-cxx14`
   `-GUnix Makefiles`
-  `-DCMAKE_TOOLCHAIN_FILE=/home/theiiird/Projects/TIMP/Workbench/lab07/tools/polly/clang-cxx14.cmake`
+  `-DCMAKE_TOOLCHAIN_FILE=/home/ivanovich333/Projects/TIMP/Workbench/lab07/tools/polly/clang-cxx14.cmake`
 ]
-[/home/theiiird/Projects/TIMP/Workbench/lab07]> "cmake" "-H." "-B/home/theiiird/Projects/TIMP/Workbench/lab07/_builds/clang-cxx14" "-GUnix Makefiles" "-DCMAKE_TOOLCHAIN_FILE=/home/theiiird/Projects/TIMP/Workbench/lab07/tools/polly/clang-cxx14.cmake"
+[/home/ivanovich333/Projects/TIMP/Workbench/lab07]> "cmake" "-H." "-B/home/ivanovich333/Projects/TIMP/Workbench/lab07/_builds/clang-cxx14" "-GUnix Makefiles" "-DCMAKE_TOOLCHAIN_FILE=/home/ivanovich333/Projects/TIMP/Workbench/lab07/tools/polly/clang-cxx14.cmake"
 CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
   Compatibility with CMake < 3.5 will be removed from a future version of
   CMake.
