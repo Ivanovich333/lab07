@@ -1,6 +1,6 @@
 Execute command: [
   `which`
-  `cmake`
+  `cmake` 
 ]
 [/home/ivanovich333/Projects/TIMP/Workbench/lab07]> "which" "cmake"
 /sbin/cmake
